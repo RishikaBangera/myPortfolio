@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: black;
+}
+
+/* Navbar */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar li {
+    margin: 0 1rem;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://via.placeholder.com/1500x800') center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-text h2 {
+    font-size: 2.5rem;
+}
+
+.hero-text span {
+    color: #f39c12;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.7rem 1.5rem;
+    background: #f39c12;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Sections */
+section {
+    padding: 3rem 1rem;
+    width: 90%;
+    margin: auto;
+}
+
+.projects .project-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.project-card {
+    background: #f4f4f4;
+    padding: 1rem;
+    border-radius: 5px;
+    width: calc(50% - 1rem);
+}
+
+.project-card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+/* Contact */
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact input, .contact textarea {
+    margin-bottom: 1rem;
+    padding: 0.7rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button {
+    padding: 0.7rem;
+    background: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.skills-heading {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.section-heading {
+  
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #1f2937; /* Tailwind's gray-800 */
+}
+

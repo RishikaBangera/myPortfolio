@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">MyPortfolio</h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+
+   <!-- Hero Section -->
+<section class="hero" style="display: flex; align-items: center; justify-content: center; gap: 30px; padding: 40px;">
+    
+    <!-- Left: Image -->
+    <div class="hero-image">
+        <img src="d:/Train-java/WhatsApp Image 2025-08-11 at 9.19.15 AM.jpeg" 
+             alt="Rishika Bangera" 
+             style="height: 500px; width: 300px; object-fit: cover; border-radius: 10px;">
+    </div>
+
+    <!-- Right: Text -->
+    <div class="hero-text" style="display: flex; flex-direction: column; justify-content: center;">
+        <h2 style="margin: 0;"><span>Hello, I'm Rishika Bangera</span></h2>
+        <p style="margin: 10px 0;">Aspiring Software Engineer</p>
+        <a href="#projects" class="btn" 
+           style="display: inline-block; padding: 10px 20px; background-color: #ff6600; 
+                  color: white; text-decoration: none; border-radius: 5px; margin-top: 10px;">
+            View My Work
+        </a>
+    </div>
+
+</section>
+
+
+    <!-- About Section -->
+      <section id="about" class="about">
+        <h2  class="skills-heading" style="color: #ff6600;">About Me</h2>
+        <p style="color: white;">
+             Resilient and analytical Software Engineering student with a strong passion for solving logical and real-world
+              problems, having problem-solving mindset and adaptability.
+           
+        </p>
+    </section>
+        
+      
+    <!-- Skills Section -->
+<section id="skills" class="py-12 bg-gray-50">
+  <div class="container mx-auto px-6">
+    <h2 class="skills-heading" style="color: #ff6600;">Skills</h2>
+    
+
+    <!-- Technical Skills -->
+    <h3 class="text-xl font-semibold mb-4 text-gray-800">💻 Technical Skills</h3>
+    <div class="flex flex-wrap gap-3 mb-8">
+      <span class="px-5 py-2 bg-white rounded-full shadow-md text-gray-700 font-medium hover:bg-blue-100 hover:scale-105 transition transform duration-200">HTML</span>
+      <span class="px-5 py-2 bg-white rounded-full shadow-md text-gray-700 font-medium hover:bg-blue-100 hover:scale-105 transition transform duration-200">CSS</span>
+      <span class="px-5 py-2 bg-white rounded-full shadow-md text-gray-700 font-medium hover:bg-blue-100 hover:scale-105 transition transform duration-200">Java</span>
+      
+      <span class="px-5 py-2 bg-white rounded-full shadow-md text-gray-700 font-medium hover:bg-blue-100 hover:scale-105 transition transform duration-200">Networking</span>
+
+            <span class="px-5 py-2 bg-white rounded-full shadow-md text-gray-700 font-medium hover:bg-blue-100 hover:scale-105 transition transform duration-200">Data Structures & Algorithms (DSA)</span>
+      <span class="px-5 py-2 bg-white rounded-full shadow-md text-gray-700 font-medium hover:bg-blue-100 hover:scale-105 transition transform duration-200">SQL</span>
+      <span class="px-5 py-2 bg-white rounded-full shadow-md text-gray-700 font-medium hover:bg-blue-100 hover:scale-105 transition transform duration-200">UI/UX Design</span>
+    </div>
+
+    <!-- Soft Skills -->
+    <h3 class="text-xl font-semibold mb-4 text-gray-800">🤝 Soft Skills</h3>
+    <div class="flex flex-wrap gap-3">
+      <span class="px-5 py-2 bg-white rounded-full shadow-md text-gray-700 font-medium hover:bg-green-100 hover:scale-105 transition transform duration-200">Communication</span>
+      <span class="px-5 py-2 bg-white rounded-full shadow-md text-gray-700 font-medium hover:bg-green-100 hover:scale-105 transition transform duration-200">Problem Solving</span>
+      <span class="px-5 py-2 bg-white rounded-full shadow-md text-gray-700 font-medium hover:bg-green-100 hover:scale-105 transition transform duration-200">Time Management</span>
+      <span class="px-5 py-2 bg-white rounded-full shadow-md text-gray-700 font-medium hover:bg-green-100 hover:scale-105 transition transform duration-200">Decision Making</span>
+    </div>
+  </div>
+</section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2 class="skills-heading" style="color: #ff6600;">Projects</h2>
+        <div class="project-list">
+            <div class="project-card">
+                <img src="location.png" alt="Project 1" style ="height:400px">
+               <b> <h3>Advanced Telemedicine and patient engagement</h3></b>
+                <p>Designed and developed a smart telemedicine platform to bridge 
+                    geographic barriers in healthcare delivery by enabling real-time, 
+                    two-way communication between patients and providers</p>
+            </div>
+            <div class="project-card">
+                <img src="figwork1.jpeg" alt="Project 2">
+                
+               <b> <p>GoFoooood – Food Delivery App (UI/UX Design)</b>
+                GoFoooood is a UI/UX design project for a modern and user-friendly food 
+                delivery application. The design focuses on creating a seamless and visually appealing experience for users 
+                to browse explore menus.
+                This hobby project highlights my skills in prototyping,creative designing and 
+                creating an intuitive interface with engaging visuals.</p>
+                <a href="https://www.figma.com/design/cwOxhFNnWDbXn8WaVjh67B/Untitled?m=auto&t=tpNxxXSkHbm7iIDp-6"
+                style="text-decoration: underline;">Click here to have a look on my design</a>
+            </div>
+        </div>
+    </section>
+   
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+       <!-- Contact Section -->
+<section id="contact" class="contact">
+    <h2 class="skills-heading" style="color:#ff6600">Contact Me</h2>
+    <div style="text-align: center; color:white"
+    <p>If you'd like to get in touch, here are my details:</p>
+    <ul class="contact-info">
+        <li><strong>Email:</strong> rshikabangera@gmail.com</li>
+        <li><strong>Phone:</strong> +91 8139914822</li>
+        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/rishika-bangera-b74247263?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">linkedin.com/in/yourprofile</a></li>
+        
+    </ul>
+    </section><div>
+</section>
+
+ 
+    <footer>
+        <p>© 2025.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>
